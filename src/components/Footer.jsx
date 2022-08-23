@@ -2,9 +2,9 @@ import React from "react";
 import instagram from "../assets/instagram.ico";
 const Footer = () => {
   return (
-    <div className="bg-emerald-500 text-center font-bold absolute w-[100%] h-[100px]">
+    <div className="bg-gray-800 text-center font-bold absolute w-[100%] h-[100px]">
 
-      <div className=""> 
+      <div className=":focus-inset-7"> 
       <label for="">
         <a className="h-[50px] w-[50px]"  href="https://www.instagram.com/thebcursos/" target="_blank" rel="noreferrer" >
           {" "}

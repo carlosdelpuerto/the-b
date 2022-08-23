@@ -1,7 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Signika+Negative:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +8,6 @@
 
 @layer base{
     html{
-        font-family: 'Lato', sans-serif;
-        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Arya', serif;
     }
 }
