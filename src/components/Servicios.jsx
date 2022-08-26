@@ -1,9 +1,9 @@
-import courses from '../assets/courses.png'
-import ecografo from '../assets/ecografo.png'
-import inseminacion from '../assets/inseminacion.png'
-import vacuna from '../assets/vacuna.ico'
-import fertilizacion from '../assets/fertilizacion.png'
-import apicultura from '../assets/apicultura.ico'
+import courses from '../assets/serviciosImg/courses.png'
+import ecografo from '../assets/serviciosImg/ecografo.png'
+import inseminacion from '../assets/serviciosImg/inseminacion.png'
+import vacuna from '../assets/serviciosImg/vacuna.ico'
+import fertilizacion from '../assets/serviciosImg/fertilizacion.png'
+import nutri from '../assets/serviciosImg/nutri.png'
 
 const Servicios = () => {
 
@@ -11,52 +11,52 @@ const Servicios = () => {
         {
             id:1,
             src: courses,
-            title: 'The-B Courses',
-            style: 'shadow-green-500'
+            title: 'Diversos cursos',
+            style: 'shadow-gray-500'
            
         },
         {
             id:2,
             src: ecografo,
             title: 'Ginecología',
-            style: 'shadow-green-500'
+            style: 'shadow-gray-500'
         },
         {
             id:3,
             src: inseminacion,
-            title: 'Andrologia/I.A.T.F',
-            style: 'shadow-green-500'
+            title: 'Andrologia',
+            style: 'shadow-gray-500'
          
         },
         {
             id:4,
             src: vacuna,
             title: 'Sanitación Animal',
-            style: 'shadow-green-500'
+            style: 'shadow-gray-500'
         },
         {
             id:5,
             src: fertilizacion,
             title: 'F.I.V',
-            style: 'shadow-green-500'
+            style: 'shadow-gray-500'
         },
         {
             id:6,
-            src: apicultura,
-            title: 'Apicultura',
-            style: 'shadow-green-500'
+            src: nutri,
+            title: 'Nutrición Animal',
+            style: 'shadow-gray-500'
         },
     ]
 
 
 
   return (
-    <div name='servicios' className='text-white bg-gradient-to-r from-gray-500 to-gray-800  w-full h-screen'>
+    <div name='servicios' className='text-white bg-slate-200  w-full h-screen'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black '>
             <div>
-                <p className='text-4xl text-green-400 flex justify-center font-bold p-0'>
+                <p className='text-4xl text-gray-800 flex justify-center font-bold p-0'>
                 Nuestros Servicios </p>
-                <p className='py-4 text-white flex justify-center text-lg'>Estas son algunas de las tecnologias y servicios que ofrecemos! </p>
+                <p className='py-4 text-gray-500 flex justify-center text-lg'>Estas son algunas de las tecnologias y servicios que ofrecemos! </p>
             </div>
 
 

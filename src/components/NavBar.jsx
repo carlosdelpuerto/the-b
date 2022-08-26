@@ -13,23 +13,23 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "inicio",
-    },
-    {
-      id: 2,
       link: "nosotros",
     },
     {
-      id: 3,
+      id: 2,
       link: "servicios",
+    },
+    {
+      id: 3,
+      link: "contacto",
     }
   ];
 //el <Link to={link} smooth duration={500} es para redirigir a las secciones del nav!
   return (
-    <div className="flex justify-end text-center items-center w-full h-[80px] px-4 bg-black fixed">
+    <div className="flex justify-end text-center items-center w-full h-[65px] px-4 bg-black fixed">
 
           <label for='' className='w-[100%] h-[80px] ml-[5px]'>
-          <a href="inicio"> <img src={Bagre} alt="icon" className="w-[75px] h-[75px]"/></a>
+          <a href="inicio"> <img src={Bagre} alt="icon" className="w-[65px] h-[55px] mt-3"/></a>
           </label>
 
       <ul className="hidden md:flex">
@@ -49,13 +49,13 @@ const NavBar = () => {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-lime-300 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-white md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-blue-600 to-blue-500 text-lime-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-gray-600 to-gray-800 text-white">
           {links.map(({ id, link }) => (
             <li
               key={id}
